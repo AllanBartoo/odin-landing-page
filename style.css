@@ -126,10 +126,35 @@ span {
 
 /* sign-up  */
 .signup {
-  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
 }
 
 .signup-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  height: 140px;
   background-color: #3882f6;
-  max-width: 900px;
+  border-radius: 8px;
+}
+
+.signup-text {
+  color: #f9faf8;
+}
+
+.signup-btn {
+  font-weight: 600;
+  border: solid #f9faf8 2px;
+}
+
+/* footer  */
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 40px;
 }
